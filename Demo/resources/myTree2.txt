@@ -1,0 +1,8 @@
+Selector
+    AlwaysFail
+        advanced.behaviourTree.actions.FirstAction
+    Sequence
+        Inverter
+            AlwaysSucceed
+                advanced.behaviourTree.actions.SecondAction
+        advanced.behaviourTree.actions.ThirdAction

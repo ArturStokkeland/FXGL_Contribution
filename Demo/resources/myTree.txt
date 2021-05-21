@@ -1,0 +1,8 @@
+Selector
+    advanced.behaviourTree.decorators.IsInRange:Sequence
+        advanced.behaviourTree.actions.FirstAction
+        advanced.behaviourTree.actions.SecondAction
+        Inverter
+            advanced.behaviourTree.actions.ThirdAction
+        advanced.behaviourTree.actions.FourthAction
+    advanced.behaviourTree.decorators.IsNotInRange:advanced.behaviourTree.actions.FollowAction

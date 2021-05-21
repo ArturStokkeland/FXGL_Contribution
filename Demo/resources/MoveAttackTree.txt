@@ -1,0 +1,3 @@
+Selector
+    advanced.behaviourTree.decorators.IsNotInRange:advanced.behaviourTree.actions.FollowAction
+    advanced.behaviourTree.decorators.IsInRange:advanced.behaviourTree.actions.AttackAction
